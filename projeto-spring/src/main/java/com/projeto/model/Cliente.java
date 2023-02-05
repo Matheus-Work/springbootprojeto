@@ -7,9 +7,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 
 @Entity
@@ -22,7 +19,7 @@ public class Cliente {
 
 	 String dataCadastro;
 	 
-	 Long cadastroId;
+	 Long contatoId;
 
 	public Long getId() {
 		return id;
@@ -48,12 +45,12 @@ public class Cliente {
 		this.dataCadastro = dataCadastro;
 	}
 	
-	public Long getCadastroId() {
-		return cadastroId;
+	public Long getContatoId() {
+		return contatoId;
 	}
 
-	public void setCadastroId(Long cadastroId) {
-		this.cadastroId = cadastroId;
+	public void setContatoId(Long contatoId) {
+		this.contatoId = contatoId;
 	}
 
 	
