@@ -10,6 +10,9 @@ com a possibilidade de criar, ler, atualizar e excluir os dados.
 ## Frameworks
 - Spring Boot
 
+## Realizar testes
+- Postman
+
 ## Implantação em produção
 - Banco de dados em Memória
 
